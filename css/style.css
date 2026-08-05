@@ -775,6 +775,16 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid var(--c-gold);
   margin-bottom: 0.5rem;
 }
+.testimonial-avatar.initials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: var(--c-dark);
+  background: var(--c-gold);
+}
 .testimonial-name { font-size: 1rem; margin-bottom: 0; }
 .testimonial-role {
   font-size: 0.75rem;
