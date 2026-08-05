@@ -1,5 +1,5 @@
 /* ==========================================================================
-   AURUM CAPITAL — Script Principal
+   GSC CONSULTORIA — Script Principal
    --------------------------------------------------------------------------
    Responsável por:
    01. Injeção de componentes reutilizáveis (Header, Footer, Banner CTA)
@@ -71,11 +71,11 @@
     host.innerHTML =
       '<div class="container">' +
         '<div class="header-inner">' +
-          '<a href="index.html" class="brand" aria-label="Aurum Capital — Início">' +
-            '<span class="brand-mark">A</span>' +
+          '<a href="index.html" class="brand" aria-label="GSC Consultoria de Investimentos — Início">' +
+            '<span class="brand-mark">G</span>' +
             '<span class="brand-text">' +
-              '<span class="brand-name">Aur<em>um</em></span>' +
-              '<span class="brand-sub">Capital</span>' +
+              '<span class="brand-name">GS<em>C</em></span>' +
+              '<span class="brand-sub">Consultoria</span>' +
             '</span>' +
           '</a>' +
 
@@ -104,10 +104,10 @@
             /* Marca + resumo + redes sociais */
             '<div class="col-lg-4 col-md-6">' +
               '<div class="footer-brand brand mb-3">' +
-                '<span class="brand-mark">A</span>' +
+                '<span class="brand-mark">G</span>' +
                 '<span class="brand-text">' +
-                  '<span class="brand-name">Aur<em>um</em></span>' +
-                  '<span class="brand-sub">Capital</span>' +
+                  '<span class="brand-name">GS<em>C</em></span>' +
+                  '<span class="brand-sub">Consultoria</span>' +
                 '</span>' +
               '</div>' +
               '<p class="footer-about">Consultoria independente de investimentos e planejamento patrimonial, guiada por estratégia, discrição e resultados de longo prazo.</p>' +
@@ -149,7 +149,7 @@
               '<ul class="footer-contact">' +
                 '<li><i class="fa-solid fa-location-dot"></i><span>Av. Paulista, 1578 — 12º andar, São Paulo/SP</span></li>' +
                 '<li><i class="fa-solid fa-phone"></i><span>+55 (11) 4002-8922</span></li>' +
-                '<li><i class="fa-solid fa-envelope"></i><span>contato@aurumcapital.com.br</span></li>' +
+                '<li><i class="fa-solid fa-envelope"></i><span>contato@gscconsultoria.com.br</span></li>' +
                 '<li><i class="fa-regular fa-clock"></i><span>Seg a Sex, das 9h às 18h</span></li>' +
               '</ul>' +
             '</div>' +
@@ -157,7 +157,7 @@
         '</div>' +
 
         '<div class="footer-bottom">' +
-          '<span>© <span id="footer-year"></span> Aurum Capital. Todos os direitos reservados.</span>' +
+          '<span>© <span id="footer-year"></span> GSC Consultoria de Investimentos. Todos os direitos reservados.</span>' +
           '<span>Consultoria de investimentos com <a href="#">política de transparência</a> e <a href="#">aviso legal</a>.</span>' +
         '</div>' +
       '</div>';
