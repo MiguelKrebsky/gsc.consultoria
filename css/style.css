@@ -73,6 +73,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: var(--header-h); /* compensa a navbar fixa */
+  overflow-x: hidden; /* trava o scroll horizontal (espaço branco no celular) */
 }
 
 body {
@@ -249,17 +250,17 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0; left: 0;
   width: 100%;
-  z-index: 1030;
+  z-index: 1051; /* acima do fundo escuro do menu (1049) para o drawer ficar clicável */
   padding: 1.5rem 0;
   transition: padding var(--transition), background var(--transition), box-shadow var(--transition);
 }
 
-/* Estado ao rolar — reduz e ganha blur */
+/* Estado ao rolar — reduz de tamanho e ganha fundo escuro.
+   O blur fica apenas no desktop: no mobile ele quebraria o
+   posicionamento fixo do drawer do menu. */
 .site-header.scrolled {
   padding: 0.7rem 0;
-  background: rgba(11, 11, 11, 0.9);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
+  background: rgba(11, 11, 11, 0.97);
   border-bottom: 1px solid rgba(201, 161, 91, 0.22);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
 }
@@ -1184,6 +1185,13 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1200px) {
   .nav-toggle { display: none; }
   .nav-backdrop { display: none; }
+
+  /* Frosted glass apenas no desktop — no mobile o blur quebraria o drawer */
+  .site-header.scrolled {
+    background: rgba(11, 11, 11, 0.85);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
 }
 
 /* < 1200px — notebook/tablet/celular */
