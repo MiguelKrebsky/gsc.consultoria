@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <!-- ==================================================================
+       AURUM CAPITAL — Página Inicial
+       Consultoria de Investimentos e Planejamento Patrimonial
+       ================================================================== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aurum Capital | Consultoria de Investimentos e Planejamento Patrimonial</title>
+  <meta name="description" content="Consultoria independente de investimentos e planejamento patrimonial. Estratégia, discrição e resultados de longo prazo para famílias e empresas.">
+
+  <!-- Favicon (monograma dourado) -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='48' fill='%230B0B0B'/%3E%3Ctext x='50' y='68' font-size='52' font-family='Georgia,serif' fill='%23C9A15B' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+  <!-- Google Fonts: Playfair Display (títulos) + Poppins (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- AOS — Animate On Scroll -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Folha de estilos do projeto -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-page="home">
+
+  <!-- ================================================================
+       CABEÇALHO — injetado via js/script.js (componente reutilizável)
+       ================================================================ -->
+  <header id="site-header" class="site-header"></header>
+
+  <main>
+
+    <!-- ============================================================
+         HERO
+         ============================================================ -->
+    <section class="hero">
+      <div class="hero-bg" style="background-image: url('img/hero-home.jpg');" role="img" aria-label="Prédios corporativos ao anoitecer"></div>
+
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <span class="hero-eyebrow" data-aos="fade-up">Consultoria independente</span>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="100">
+              Preserve e multiplique seu <span class="accent">patrimônio</span> com estratégia e discrição.
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="200">
+              Consultoria de investimentos e planejamento patrimonial para quem valoriza excelência,
+              confiança e resultados de longo prazo — com atendimento 100% personalizado.
+            </p>
+            <div class="hero-actions" data-aos="fade-up" data-aos-delay="300">
+              <a href="contato.html" class="btn btn-gold btn-lg-lux">
+                <i class="fa-regular fa-calendar-check me-2"></i>Agendar conversa
+              </a>
+              <a href="quem-somos.html" class="btn btn-outline-light-lux btn-lg-lux">Saiba mais</a>
+            </div>
+          </div>
+
+          <!-- Cards flutuantes com diferenciais -->
+          <div class="col-lg-5 d-none d-lg-block">
+            <div class="hero-cards" data-aos="fade-left" data-aos-delay="300">
+              <div class="floating-card fc-1">
+                <span class="fc-icon"><i class="fa-solid fa-chart-line"></i></span>
+                <div>
+                  <div class="fc-value">R$ 4,5 bi</div>
+                  <div class="fc-label">em patrimônio sob assessoria</div>
+                </div>
+              </div>
+              <div class="floating-card fc-2">
+                <span class="fc-icon"><i class="fa-solid fa-shield-halved"></i></span>
+                <div>
+                  <div class="fc-value">Proteção patrimonial</div>
+                  <div class="fc-label">estratégia sob medida</div>
+                </div>
+              </div>
+              <div class="floating-card fc-3">
+                <span class="fc-icon"><i class="fa-solid fa-user-tie"></i></span>
+                <div>
+                  <div class="fc-value">Especialistas certificados</div>
+                  <div class="fc-label">CFA, CFP® e ANBIMA</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SOBRE — texto institucional + valores
+         ============================================================ -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="row align-items-center g-5">
+
+          <!-- Imagem elegante -->
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="position-relative">
+              <img src="img/home-sobre.jpg" alt="Sala de reuniões sofisticada da Aurum Capital" class="img-fluid rounded-4 shadow-lg">
+              <!-- Selo de experiência -->
+              <div class="position-absolute bottom-0 start-0 translate-middle-y ms-4 bg-dark text-white rounded-4 px-4 py-3 shadow">
+                <div class="fw-light small text-gold mb-1">Desde 2011</div>
+                <div class="fw-semibold">15 anos de excelência</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Texto -->
+          <div class="col-lg-6" data-aos="fade-left">
+            <span class="section-label">Quem somos</span>
+            <h2 class="section-title">Uma consultoria construída sobre <span class="accent">confiança</span> e alto padrão.</h2>
+            <p class="text-muted mb-3">
+              A Aurum Capital nasceu do propósito de oferecer assessoria patrimonial verdadeiramente
+              independente, alinhada aos interesses de cada cliente — sem conflitos, sem pressa,
+              sem promessas irrealistas.
+            </p>
+            <p class="text-muted mb-4">
+              Reunimos especialistas em investimentos, planejamento tributário e sucessão para cuidar
+              do seu patrimônio como se fosse nosso, com a transparência que você exige.
+            </p>
+
+            <!-- Valores da empresa -->
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center gap-3 bg-gray-lux rounded-4 px-4 py-3 h-100">
+                  <i class="fa-solid fa-handshake text-gold fa-lg"></i>
+                  <div>
+                    <strong class="d-block small">Confiança</strong>
+                    <span class="small text-muted">Relação de longo prazo</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center gap-3 bg-gray-lux rounded-4 px-4 py-3 h-100">
+                  <i class="fa-solid fa-gem text-gold fa-lg"></i>
+                  <div>
+                    <strong class="d-block small">Excelência</strong>
+                    <span class="small text-muted">Padrão acima da média</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center gap-3 bg-gray-lux rounded-4 px-4 py-3 h-100">
+                  <i class="fa-solid fa-eye-slash text-gold fa-lg"></i>
+                  <div>
+                    <strong class="d-block small">Discrição</strong>
+                    <span class="small text-muted">Sigilo absoluto</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="d-flex align-items-center gap-3 bg-gray-lux rounded-4 px-4 py-3 h-100">
+                  <i class="fa-solid fa-bullseye text-gold fa-lg"></i>
+                  <div>
+                    <strong class="d-block small">Resultados</strong>
+                    <span class="small text-muted">Meta e disciplina</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DIFERENCIAIS — grid com ícones
+         ============================================================ -->
+    <section class="section bg-gray-lux">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-label">Nossos diferenciais</span>
+          <h2 class="section-title">O que nos torna <span class="accent">diferentes</span></h2>
+          <p class="section-subtitle mx-auto">Cada cliente é único. Nossa estrutura foi desenhada para entregar o cuidado que patrimônios exigentes merecem.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-clipboard-list"></i></span>
+              <h3 class="card-title">Planejamento</h3>
+              <p class="card-text">Diagnóstico completo da sua situação financeira, objetivos e horizonte de investimento antes de qualquer decisão.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-chess-knight"></i></span>
+              <h3 class="card-title">Estratégia</h3>
+              <p class="card-text">Alocação inteligente entre ativos, países e moedas, construída a partir de análises profundas de mercado.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-shield-halved"></i></span>
+              <h3 class="card-title">Proteção patrimonial</h3>
+              <p class="card-text">Blindagem jurídica e estrutural para resguardar seu patrimônio de riscos, contingências e oscilações.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-hand-holding-heart"></i></span>
+              <h3 class="card-title">Relacionamento</h3>
+              <p class="card-text">Um consultor sênior dedicado, próximo e acessível, que conhece sua história e suas prioridades.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-file-contract"></i></span>
+              <h3 class="card-title">Transparência</h3>
+              <p class="card-text">Remuneração clara e ausência de conflitos de interesse. Você sempre saberá quanto e por quê.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-chart-line"></i></span>
+              <h3 class="card-title">Resultados</h3>
+              <p class="card-text">Acompanhamento contínuo, relatórios de performance e ajustes constantes rumo aos seus objetivos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         COMO FUNCIONA — timeline horizontal em 5 etapas
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-label">Como funciona</span>
+          <h2 class="section-title">Um método claro, <span class="accent">passo a passo</span></h2>
+          <p class="section-subtitle mx-auto">Um processo estruturado e transparente, do diagnóstico inicial ao acompanhamento contínuo.</p>
+        </div>
+
+        <div class="steps-timeline">
+          <div class="steps-line" data-aos="fade" data-aos-delay="200"></div>
+          <div class="row g-4">
+            <div class="col-6 col-md-4 col-lg text-center" data-aos="zoom-in" data-aos-delay="0">
+              <div class="step-item">
+                <div class="step-dot">01</div>
+                <h3 class="step-title">Diagnóstico</h3>
+                <p class="step-text">Entendemos seu momento, objetivos e tolerância ao risco.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg text-center" data-aos="zoom-in" data-aos-delay="100">
+              <div class="step-item">
+                <div class="step-dot">02</div>
+                <h3 class="step-title">Planejamento</h3>
+                <p class="step-text">Desenhamos o plano patrimonial sob medida.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg text-center" data-aos="zoom-in" data-aos-delay="200">
+              <div class="step-item">
+                <div class="step-dot">03</div>
+                <h3 class="step-title">Estratégia</h3>
+                <p class="step-text">Definimos a alocação ideal para cada objetivo.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg text-center" data-aos="zoom-in" data-aos-delay="300">
+              <div class="step-item">
+                <div class="step-dot">04</div>
+                <h3 class="step-title">Implementação</h3>
+                <p class="step-text">Executamos com precisão e governança de custos.</p>
+              </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg text-center" data-aos="zoom-in" data-aos-delay="400">
+              <div class="step-item">
+                <div class="step-dot">05</div>
+                <h3 class="step-title">Acompanhamento</h3>
+                <p class="step-text">Revisões periódicas e ajustes contínuos de rota.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SERVIÇOS EM DESTAQUE — cards
+         ============================================================ -->
+    <section class="section bg-gray-lux">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-label">Serviços</span>
+          <h2 class="section-title">Soluções <span class="accent">completas</span> para o seu patrimônio</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-chess-board"></i></span>
+              <h3 class="card-title">Planejamento Financeiro</h3>
+              <p class="card-text">Mapa completo da sua vida financeira: metas, fluxo de caixa, reservas e decisões de médio e longo prazo.</p>
+              <a href="servicos.html" class="read-more">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-chart-pie"></i></span>
+              <h3 class="card-title">Gestão de Investimentos</h3>
+              <p class="card-text">Alocação de ativos global e personalizada, com rebalanceamento e acompanhamento contínuo de performance.</p>
+              <a href="servicos.html" class="read-more">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-shield-halved"></i></span>
+              <h3 class="card-title">Proteção Patrimonial</h3>
+              <p class="card-text">Estruturas de blindagem e seguros que resguardam seu patrimônio de riscos jurídicos e familiares.</p>
+              <a href="servicos.html" class="read-more">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-scale-balanced"></i></span>
+              <h3 class="card-title">Planejamento Sucessório</h3>
+              <p class="card-text">Estratégias para transferir patrimônio às próximas gerações com eficiência tributária e tranquilidade.</p>
+              <a href="servicos.html" class="read-more">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-globe"></i></span>
+              <h3 class="card-title">Investimentos Internacionais</h3>
+              <p class="card-text">Diversificação global em ações, títulos e fundos internacionais, com due diligence completa.</p>
+              <a href="servicos.html" class="read-more">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="lux-card">
+              <span class="card-icon"><i class="fa-solid fa-building-columns"></i></span>
+              <h3 class="card-title">Estruturação Empresarial</h3>
+              <p class="card-text">Governança, holding e organização patrimonial para empresários e famílias com negócios.</p>
+              <a href="servicos.html" class="read-more">Saiba mais <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+          <a href="servicos.html" class="btn btn-outline-gold btn-lg-lux">Ver todos os serviços <i class="fa-solid fa-arrow-right ms-2"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         EQUIPE — 3 consultores
+         ============================================================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-label">Nosso time</span>
+          <h2 class="section-title">Especialistas à sua <span class="accent">disposição</span></h2>
+          <p class="section-subtitle mx-auto">Conheça os profissionais que lideram a estratégia patrimonial dos nossos clientes.</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up">
+            <article class="team-card">
+              <div class="team-photo">
+                <img src="img/team-1.jpg" alt="Ricardo Almeida, sócio-fundador e estrategista-chefe">
+                <div class="team-overlay">
+                  <a href="#" class="team-social" aria-label="LinkedIn de Ricardo Almeida"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <h3 class="team-name">Ricardo Almeida</h3>
+                <p class="team-role">Sócio-fundador · Estrategista-chefe</p>
+                <p class="team-bio">CFA®, mais de 20 anos no mercado financeiro e visão 360° de patrimônios complexos.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <article class="team-card">
+              <div class="team-photo">
+                <img src="img/team-2.jpg" alt="Marina Duarte, diretora de planejamento patrimonial">
+                <div class="team-overlay">
+                  <a href="#" class="team-social" aria-label="LinkedIn de Marina Duarte"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <h3 class="team-name">Marina Duarte</h3>
+                <p class="team-role">Diretora de Planejamento Patrimonial</p>
+                <p class="team-bio">CFP®, especialista em sucessão e estruturação patrimonial para famílias de alto padrão.</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <article class="team-card">
+              <div class="team-photo">
+                <img src="img/team-3.jpg" alt="André Vasconcelos, líder de investimentos">
+                <div class="team-overlay">
+                  <a href="#" class="team-social" aria-label="LinkedIn de André Vasconcelos"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+              </div>
+              <div class="team-info">
+                <h3 class="team-name">André Vasconcelos</h3>
+                <p class="team-role">Líder de Investimentos</p>
+                <p class="team-bio">Responsável pela alocação global da carteira e pela análise de oportunidades internacionais.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="text-center mt-5" data-aos="fade-up">
+          <a href="time.html" class="btn btn-outline-gold btn-lg-lux">Conhecer a equipe completa</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         DEPOIMENTOS — slider
+         ============================================================ -->
+    <section class="section bg-gray-lux">
+      <div class="container">
+        <div class="section-head" data-aos="fade-up">
+          <span class="section-label">Depoimentos</span>
+          <h2 class="section-title">O que nossos <span class="accent">clientes</span> dizem</h2>
+        </div>
+
+        <div class="testimonial-slider" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-track">
+
+            <!-- Slide 1 -->
+            <div class="testimonial-slide">
+              <figure class="testimonial-card">
+                <div class="testimonial-quote">&ldquo;</div>
+                <blockquote class="testimonial-text">
+                  A Aurum não apenas gerencia investimentos — ela organizou todo o patrimônio da nossa
+                  família, simplificou decisões e trouxe uma tranquilidade que não conhecíamos há anos.
+                </blockquote>
+                <figcaption class="testimonial-person">
+                  <img src="img/team-5.jpg" alt="Eduardo Sampaio" class="testimonial-avatar">
+                  <strong class="testimonial-name">Eduardo Sampaio</strong>
+                  <span class="testimonial-role">Empresário · Cliente há 8 anos</span>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="testimonial-slide">
+              <figure class="testimonial-card">
+                <div class="testimonial-quote">&ldquo;</div>
+                <blockquote class="testimonial-text">
+                  Profissionalismo raro. Cada decisão é explicada com clareza, e a carteira é acompanhada
+                  de perto, com ajustes rápidos sempre que o cenário muda.
+                </blockquote>
+                <figcaption class="testimonial-person">
+                  <img src="img/team-6.jpg" alt="Fernanda Lima" class="testimonial-avatar">
+                  <strong class="testimonial-name">Fernanda Lima</strong>
+                  <span class="testimonial-role">Médica · Cliente há 5 anos</span>
+                </figcaption>
+              </figure>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="testimonial-slide">
+              <figure class="testimonial-card">
+                <div class="testimonial-quote">&ldquo;</div>
+                <blockquote class="testimonial-text">
+                  O planejamento sucessório que estruturaram para a minha empresa foi cirúrgico.
+                  Segurança jurídica, economia tributária e total discrição.
+                </blockquote>
+                <figcaption class="testimonial-person">
+                  <img src="img/team-8.jpg" alt="Carlos Menezes" class="testimonial-avatar">
+                  <strong class="testimonial-name">Carlos Menezes</strong>
+                  <span class="testimonial-role">Sócio de indústria · Cliente há 10 anos</span>
+                </figcaption>
+              </figure>
+            </div>
+
+          </div>
+
+          <!-- Controles -->
+          <div class="slider-controls">
+            <button class="slider-btn prev" aria-label="Depoimento anterior"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="slider-dots" role="tablist" aria-label="Selecionar depoimento"></div>
+            <button class="slider-btn next" aria-label="Próximo depoimento"><i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BANNER CTA — injetado via js/script.js
+         ============================================================ -->
+    <section class="cta-banner" id="cta-banner"></section>
+
+  </main>
+
+  <!-- ================================================================
+       RODAPÉ — injetado via js/script.js (componente reutilizável)
+       ================================================================ -->
+  <footer id="site-footer" class="site-footer"></footer>
+
+  <!-- Botão voltar ao topo -->
+  <button class="back-to-top" id="back-to-top" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- ================================================================
+       SCRIPTS
+       ================================================================ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
